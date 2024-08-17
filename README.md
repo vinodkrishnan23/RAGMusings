@@ -7,11 +7,12 @@
 
 RAG Architecture Diagram
 
-![alt text](image-1.png)
+<img width="588" alt="image" src="https://github.com/user-attachments/assets/02fd8ce3-6003-4431-86e2-702b354a767f">
+
 
 Below is a screenshot of chatbot application's UI 
 
-![alt text](image.png)
+<img width="1473" alt="image" src="https://github.com/user-attachments/assets/28f11ef8-e2e0-46e4-a37b-6ec7048a567b">
 
 ## AI Stack
 - Langchain - AI Orchestration Framework
