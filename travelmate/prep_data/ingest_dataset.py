@@ -1,3 +1,6 @@
+# This script will pull data from MongoDB/airbnb_embeddings dataset hosted in hugging face into your mongodb Atlas Cluster.
+# prior to running the script, kindly update .env file which lies right besides this script for all env variable
+# OPENAI_API_KEY, MONGODB_ATLAS_CLUSTER_URI, MDB_NAME, COLLECTION_NAME, ATLAS_VECTOR_SEARCH_INDEX_NAME
 import os
 from pymongo import MongoClient
 from pymongo.operations import SearchIndexModel
