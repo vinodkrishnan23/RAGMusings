@@ -31,6 +31,8 @@ Below is a screenshot of chatbot application's UI
 
 ## Steps
 
+### Clone this git repository branch - travelmate
+
 ### Modify below files and add all variable values
 - ./travelmate/prep_data/.env - this is Travelmate's data ingest configuration file
 
