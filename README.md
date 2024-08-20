@@ -25,7 +25,7 @@ Below is a screenshot of chatbot application's UI
 ## Pre-requisites
 - Install necessary libraries using 
    - conda-spec-file.txt for conda users
-   - requirements.txt for pythin virtual environment users
+   - requirements.txt for python virtual environment users
 - You must have an OPEN AI API Key
 - Mongodb Atlas Cluster - Free tier M0 will also work
 
@@ -46,10 +46,10 @@ Below is a screenshot of chatbot application's UI
 - ./.streamlit/secrets.toml - this is Travelmate's streamlit UI configuration file
 
    ```
-   OPENAI_API_KEY="ENTER YOUR OPENAI_API_KEY"
-   MONGODB_URI = "ENTER YOUR MONGODB ATLAS CONNECTION STRING"
-   DB_NAME = "ENTER YOUR DATABASE"
-   TRAVEL_COLLECTION_NAME = "ENTER YOUR COLLECTION"
+   OPENAI_API_KEY="ENTER YOUR OPENAI_API_KEY as per .env in prep_data folder"
+   MONGODB_URI = "ENTER YOUR MONGODB ATLAS CONNECTION STRING as per .env in prep_data folder"
+   DB_NAME = "ENTER YOUR DATABASE as per .env in prep_data folder"
+   TRAVEL_COLLECTION_NAME = "ENTER YOUR COLLECTION as per .env in prep_data folder"
    ATLAS_VECTOR_SEARCH_INDEX_NAME = "YOUR INDEX NAME as per .env in prep_data folder"
    ```
 
