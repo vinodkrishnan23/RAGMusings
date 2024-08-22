@@ -41,7 +41,7 @@
 ## Steps
 
 ### Modify below files and add all variable values
-- ./travelmate/prep_data/.env - this is Travelmate's data ingest configuration file
+- ./.env - this is Travelmate's data ingest configuration file
 
    ```
    OPENAI_API_KEY=ENTER YOUR OPENAI_API_KEY
