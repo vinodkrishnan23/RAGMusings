@@ -63,13 +63,12 @@
 ### Run below command for Data ingestion and Atlas Vector search index creation
    
    ```
-   cd data
+   cd script
    python ingest_datasets.py
    ```
 
 ### Run below command to run the Streamlit UI and start chatting
 ```
-cd ../script/
 streamlit run ./app.py
 ```
 
