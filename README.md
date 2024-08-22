@@ -30,9 +30,11 @@
 
 
 ## Pre-requisites
-- Install necessary libraries using 
-   - conda-spec-file.txt for conda users
+- Install necessary libraries using and setup conda and venv respectively
+   - conda-spec-file.yml for conda users
    - requirements.txt for pythin virtual environment users
+- Activate the conda or python venv
+   - conda activate LnL
 - You must have an OPEN AI API Key
 - Mongodb Atlas Cluster - Free tier M0 will also work
 
