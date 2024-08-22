@@ -57,7 +57,7 @@
    MONGODB_URI = "ENTER YOUR MONGODB ATLAS CONNECTION STRING"
    DB_NAME = "nql_db"
    TRAVEL_COLLECTION_NAME = "datasets"
-   ATLAS_VECTOR_SEARCH_INDEX_NAME = "YOUR INDEX NAME as per .env in prep_data folder"
+   ATLAS_VECTOR_SEARCH_INDEX_NAME = "default"
    ```
 
 ### Run below command for Data ingestion and Atlas Vector search index creation
